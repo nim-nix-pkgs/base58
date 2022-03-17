@@ -11,7 +11,7 @@
   inputs.src-base58-master.owner = "~ehmry";
   inputs.src-base58-master.ref   = "refs/heads/master";
   inputs.src-base58-master.repo  = "nim_base58";
-  inputs.src-base58-master.type  = "other";
+  inputs.src-base58-master.type  = "sourcehut";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 

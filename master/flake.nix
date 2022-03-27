@@ -11,7 +11,6 @@
   inputs.src-base58-master.ref   = "master";
   inputs.src-base58-master.owner = "~ehmry";
   inputs.src-base58-master.repo  = "nim_base58";
-  inputs.src-base58-master.dir   = "";
   inputs.src-base58-master.type  = "sourcehut";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
